@@ -20,6 +20,7 @@ html {
 .btn-big {
   font-size: 1.5rem;
   background-color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -29,4 +30,16 @@ h2 {
 
 .banner-content {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
