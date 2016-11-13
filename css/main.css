@@ -15,6 +15,11 @@ html {
   font-size: 1.129rem;
   color: #fff;
   margin: .08rem;
+  position: absolute;
+  max-width: 50em;
+  left: 50%;
+  bottom: 3.5em;
+  padding-top: 0;
 }
 
 .btn-big {
@@ -26,6 +31,7 @@ html {
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 3rem;
+  display: inline;
 }
 
 .banner-content {
@@ -50,4 +56,11 @@ h2 {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.img-circle {
+  width: 200px;
+  clear: left;
+  float: left;
+
 }
