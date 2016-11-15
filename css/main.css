@@ -7,19 +7,15 @@ html {
 }
 
 .btn {
-  display: inline-block;
   padding: .55em .75em .3em;
   border-radius: 8px;
-  border-width: 3px;
   text-decoration: none;
   font-size: 1.129rem;
   color: #fff;
-  margin: .08rem;
-  position: absolute;
-  max-width: 50em;
-  left: 50%;
-  bottom: 3.5em;
-  padding-top: 0;
+}
+
+body {
+  margin: 0;
 }
 
 .btn-big {
@@ -40,17 +36,15 @@ h2 {
   position: absolute;
   width: 100%;
   max-width: 50em;
+  top: 10%;
   left: 50%;
-  bottom: 3.5em;
-  padding: 0 1.5rem;
   transform: translateX(-50%);
-  padding-top: 0;
 }
 
 .banner {
+  overflow: hidden;
   position: relative;
   max-height: 500px;
-  width: 100%;
 }
 
 .img-flex {
@@ -60,7 +54,19 @@ h2 {
 
 .img-circle {
   width: 200px;
-  clear: left;
   float: left;
+  margin: 1rem;
+}
 
+main {
+  float: right;
+  display: inline;
+}
+
+p {
+  margin-left: 1rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
